@@ -1,6 +1,5 @@
 package com.beto.actions.controller;
 
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,8 +12,8 @@ import lombok.RequiredArgsConstructor;
 public class ActionController {
 
     @GetMapping
-    public String incrementarGauge() {
-        return "Gauge incrementado! Valor atual: ";
+    public String testAction() {
+        return "Servico de Actions Operante";
     }
     
 }
